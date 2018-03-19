@@ -10,7 +10,7 @@ services.AddFacebook(options => {
 ```
 ## Twitter
 ```
-services..AddTwitter(options => {
+services.AddTwitter(options => {
     options.ConsumerKey = "";
     options.ConsumerSecret = "";
 })
