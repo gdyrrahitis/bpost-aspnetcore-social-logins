@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Social logins</h2>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <p>Hello @User.Identity.Name</p>
+    }
+    else
+    {
+        <p>Sign-in with one of the available social providers.</p>
+    }
+</div>

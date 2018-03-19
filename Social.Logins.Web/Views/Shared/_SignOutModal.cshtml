@@ -1,0 +1,19 @@
+﻿<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="LogoutModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="logoutModal">Sign out</h4>
+            </div>
+            <div class="modal-body">
+                Do you wish to sign out?
+            </div>
+            <div class="modal-footer">
+                <form method="post" asp-controller="Auth" asp-action="SignOut">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Sign Out</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
