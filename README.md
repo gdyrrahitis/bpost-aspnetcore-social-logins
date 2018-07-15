@@ -1,5 +1,5 @@
 # ASP.NET Core 2.0 user authentication with social logins
-https://wp.me/p7uERY-9V
+Related blog post can be found [here](http://codereform.com/blog/post/asp-net-core-2-1-authentication-with-social-logins/)
 
 ## Facebook
 ```
